@@ -4,6 +4,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 400, 700;
     font-style: normal;
+    padding: 20px;
 }
 
 h2 {
@@ -41,10 +42,8 @@ button {
 
 .container {
     width: 650px;
-    margin: auto;
     background-color: white;
     border-radius: 10px;
-    margin-top: 70px;
 }
 
 .second-container {
@@ -111,5 +110,18 @@ span {
 }
 
 footer {
+    width: 650px;
     margin-top: 20px;
+}
+
+
+@media (max-width: 800px) {
+    .container {
+        max-width: 90%;
+        width: auto;
+        margin: auto;
+        border-radius: 10px;
+        margin-top: 70px;
+    }
+    
 }
